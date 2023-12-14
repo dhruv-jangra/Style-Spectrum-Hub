@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #f8f8f8; */
+    position: relative;
+    padding-top: 0.1px;
+    
+    
+
+}
+#nav{
+    height: 11vh;
+    width: 100%;
+    
+    margin-top: 40px;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav h3{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+#nav h1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Monument;
+}
+#nav h3:nth-last-child(1){
+    width: 10%;
+    
+    padding-right: 60px;
+    
+}
+
+#center{
+    height: 90%;
+    width: 100%;
+   position: relative;
+    padding: 4vw;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+#content video {
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    
+    bottom: 0;
+    padding: 1vw 3vw;
+    
+    color: #fff;
+}
+#over1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+#over1 h1{
+    font-size: 4.1vw;
+    mix-blend-mode: difference;
+   
+}
+
+#over1 h2{
+    font-size: 1.5vw;
+    
+   
+    padding:1.5vw 1.5vw; 
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+    
+
+#over2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #fff;
+    padding-top: 0.5vw;
+}
+#over2 h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#over2 img{
+    height: 3vw;
+    width: 4.5vw;
+}
