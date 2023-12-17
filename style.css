@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-
+@font-face {
+    font-family: 'Monument';
+    src: url(/font_Used/MonumentExtended-Regular.otf);
+}
 html,body{
     height: 100%;
     width: 100%;
@@ -122,4 +126,48 @@ html,body{
 #over2 img{
     height: 3vw;
     width: 4.5vw;
+}
+#scroll{
+    height: 30vh;
+    width: 100%;
+    
+    white-space: nowrap;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+  
+    animation-name: move;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding-top: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+
+
+}
+
+#scroll img{
+   height: 75%;
+   width: 12%;
+   border-radius: 50%;
+   object-fit: cover;
+   margin: 2px;
+   
+  
+}
+@keyframes move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+    
 }
