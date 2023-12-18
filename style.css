@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     
 }
 @font-face {
@@ -97,8 +101,7 @@ html,body{
 }
 #over1 h1{
     font-size: 4.1vw;
-   
-   
+     
 }
 
 #over1 h2{
@@ -169,5 +172,42 @@ html,body{
     to{
         transform:translateX(-100%);
     }
+    
+}
+#alphabet{
+    
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vw;
+    font-family: Monument;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+#alphabet h5{
+    font-size: 22px;
+    font-style: italic;
+   font-weight: 400;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+    
+}
+
+#alphabet h6{
+    
+    font-size: 1vw;
+    font-weight: 300;
+    font-style: italic;
+    border-radius: 50%;
+    background-color: bisque;
+    padding: 0.5vw 0.7vw;
+    letter-spacing: 4px;
+    
+}
+#page2{
+    height: 100%;
+    width: 100%;
     
 }
